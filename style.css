@@ -84,6 +84,13 @@ html, body{
     border: 2px solid hsl(0, 0%, 95%);
 }
 
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 @media only screen and (min-width: 768px) and (max-width: 950px) {
     .container{
         flex-direction: row;
