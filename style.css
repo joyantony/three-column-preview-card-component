@@ -83,3 +83,47 @@ html, body{
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
 }
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+    .container{
+        flex-direction: row;
+        padding: 6.25rem 6.5rem;
+    }
+
+    .card{
+        height: 40vh;
+        width: 30vw;
+    }
+
+    .card-sedan{
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card-luxury{
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+@media only screen and (min-width: 951px){
+
+    .container{
+        flex-direction: row;
+        padding: 6.25rem 12.5rem;
+    }
+
+    .card{
+        height: 50vh;
+        width: 20vw;
+    }
+
+    .card-sedan{
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card-luxury{
+        border-radius: 0 10px 10px 0;
+    }
+     
+
+}
+
